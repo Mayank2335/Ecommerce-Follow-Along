@@ -125,3 +125,22 @@ In this milestone, you will work on the **frontend**, while your mentor will gui
    - Complied with security standards like GDPR and PCI-DSS.
 5. README Update:
    - Documented progress for Milestone 6 and updated the repository.
+
+### Milestone 7: User Login & Authentication
+*✅ Goals:*
+1. *Login Endpoint:*
+   - Created a backend endpoint for user login, accepting email/username and password.
+   - Retrieved user data from MongoDB based on the provided email/username.
+   - If the user does not exist, returned an error: "User does not exist."
+2. *Password Validation:*
+   - Utilized bcrypt to compare the entered password with the stored hashed password.
+   - Ensured password verification was secure and efficient.
+3. *Authentication Flow:*
+   - If the hashed passwords matched, authenticated the user.
+   - If not, sent an error indicating invalid credentials.
+4. *Security Considerations:*
+   - Implemented secure password handling without storing plaintext passwords.
+   - Complied with security standards such as GDPR and PCI-DSS.
+5. *README Update:*
+   - Documented the progress and learning outcomes for Milestone 7.
+   - Updated the repository with details about the user login functionality.
