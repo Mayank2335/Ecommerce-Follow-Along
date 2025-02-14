@@ -143,4 +143,17 @@ In this milestone, you will work on the **frontend**, while your mentor will gui
    - Complied with security standards such as GDPR and PCI-DSS.
 5. *README Update:*
    - Documented the progress and learning outcomes for Milestone 7.
-   - Updated the repository with details about the user login functionality.
+   
+   
+   ### Milestone 8: Displaying Multiple Products with a Single Card Component
+   ✅ Goals:
+   1. Create a Dynamic Component:
+      - Designed a reusable card component that accepts product details as props.
+   2. Use Mapping:
+      - Utilized array mapping to iterate over the product list and render a card for each product.
+   3. Pass Data Dynamically:
+      - Passed unique product information (e.g., name, price, image) to each card.
+   4. Maintain Consistency:
+      - Ensured the layout remains uniform for all products.
+   5. README Update:
+      - Documented progress for Milestone 8 and updated the repository.
