@@ -172,3 +172,16 @@ In this milestone, you will work on the **frontend**, while your mentor will gui
 3. Experimentation Encouraged:
 - Suggested adding features such as admin access for uploading products or creating a shop profile for product uploads.
 
+### Milestone 10: Product Schema and Endpoint Creation with Mongoose.
+
+✅ Goals:
+
+1. Product Schema
+- Defines the structure of product data (name, description, price, image URL) with proper validation.
+
+2. Endpoint Creation
+- Build a POST endpoint to receive product data, validate it, and save it to MongoDB.
+
+3. Why Validation?
+- Ensures only valid data is saved, maintaining data integrity and preventing errors.
+
