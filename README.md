@@ -157,3 +157,18 @@ In this milestone, you will work on the **frontend**, while your mentor will gui
       - Ensured the layout remains uniform for all products.
    5. README Update:
       - Documented progress for Milestone 8 and updated the repository.
+
+
+### Milestone 9: Built a form to accept multiple product images as input.
+
+✅ Goals:
+
+1. Create the Product Form:
+- Built a form to accept multiple product images as input.
+
+2. Dynamic Product Creation:
+- Allowed users to input product details like name, price, and images.
+
+3. Experimentation Encouraged:
+- Suggested adding features such as admin access for uploading products or creating a shop profile for product uploads.
+
