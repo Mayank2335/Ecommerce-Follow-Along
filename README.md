@@ -185,3 +185,19 @@ In this milestone, you will work on the **frontend**, while your mentor will gui
 3. Why Validation?
 - Ensures only valid data is saved, maintaining data integrity and preventing errors.
 
+### Milestone 11: Fetching and Displaying Products 🚀
+
+✅ Goals:
+Implement an API endpoint to send all product data to the frontend, and create a function to fetch and dynamically display that data using a product card component.
+
+1. Backend (API)
+- Create an Endpoint.
+- Add a new route to your backend server (e.g., /api/products).
+- Fetch product data from the database.
+- Send the data as a JSON response.
+
+2. Frontend (Fetching Data)
+- Write a Function to Fetch Data
+- Render Data Dynamically
+
+
