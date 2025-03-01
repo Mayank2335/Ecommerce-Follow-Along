@@ -221,4 +221,18 @@ Dynamically display the filtered product data using the previously created produ
 - Reuse the product card component.
 - Map through the filtered product data and render a card for each product.
 
+### Milestone 13: Editing Uploaded Products 🛠️
+✅ Goals:
+
+1.  Create an Update Endpoint:
+- Add a new route to your backend server (e.g., /api/products/:id).
+- Use the product ID to find the existing product in MongoDB.
+- Update the product with the new data.
+
+2. Add an Edit Button:
+- Add an Edit button to the product card.
+
+3. Auto-fill the Form:
+- When clicking the Edit button, load the existing product data into the form.
+
 
