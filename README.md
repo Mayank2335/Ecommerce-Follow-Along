@@ -200,3 +200,25 @@ Implement an API endpoint to send all product data to the frontend, and create a
 2. Frontend (Fetching Data)
 - Write a Function to Fetch Data
 - Render Data Dynamically
+
+### Milestone 12: My Products Page with Email Filtering 📩
+✅ Goals:
+
+Dynamically display the filtered product data using the previously created product card component.
+
+1. Backend (API)
+
+- Create an Endpoint with Email Filtering:
+- Add a new route to your backend server (e.g., /api/my-products).
+- Use query parameters or authentication to capture the user’s email.
+
+2. Frontend (Fetching Data)
+- Write a Function to Fetch Filtered Data:
+- Use fetch or axios to call the API with the user's email.
+
+3. Frontend (Displaying Data)
+- Render Data Dynamically:
+- Reuse the product card component.
+- Map through the filtered product data and render a card for each product.
+
+
