@@ -235,4 +235,19 @@ Dynamically display the filtered product data using the previously created produ
 3. Auto-fill the Form:
 - When clicking the Edit button, load the existing product data into the form.
 
+### Milestone 14: Deleting Products 🗑️
 
+✅ Goals:
+
+1. Create a Delete Endpoint:
+- Add a new route to your backend server (e.g., /api/products/:id).
+- Use the product ID to find and delete the product in MongoDB.
+
+2. Add a Delete Button:
+- Add a Delete button to the product card.
+
+3. Handle Delete Request:
+- When clicking the Delete button, send a request to the server with the product ID.
+
+4. Update the UI:
+- After deletion, update the product list to reflect the changes.
