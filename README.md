@@ -274,3 +274,28 @@ Dynamically display the filtered product data using the previously created produ
 4. Integrate the Nav Component:
 - Add the navigation component to all pages.
 - Ensure smooth transitions between pages (you can use animations or page transitions if desired).
+
+### Milestone 16: Product Data Display Page 🛍️
+
+✅ Goals:
+
+1. Build a new component to display product data.
+- Use a responsive grid or card layout to present product information.
+
+2. Fetch Product Data:
+- Retrieve product data from the backend or a mock API.
+- Use useEffect and fetch (or Axios) to load the data on component mount.
+
+3. Render Product Details:
+- Display essential product details like:
+- Product name
+- Price
+- Description
+- Image
+ 
+ 4. Style the Product Page:
+- Use CSS or a framework (like Tailwind or Bootstrap) for styling.
+- Make sure the layout is responsive and visually appealing.
+
+5. Add Navigation:
+- Integrate the navigation component (from Milestone 15) to allow easy page switching.
