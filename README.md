@@ -251,3 +251,26 @@ Dynamically display the filtered product data using the previously created produ
 
 4. Update the UI:
 - After deletion, update the product list to reflect the changes.
+
+### Milestone 15: Navigation Component Setup 🛠️
+
+✅ Goals:
+
+1. Create a New Nav Component:
+- Build a navigation component that includes links to the following pages:
+- Home
+- My Products
+- Add Product
+- Cart
+
+2. Implement Routing:
+- Use a routing library (like React Router) to manage page navigation.
+- Ensure each link routes to the correct page/component.
+
+3. Make the Navbar Responsive:
+- Use CSS or a framework (like Tailwind, Bootstrap) to make the navbar adapt to all screen sizes.
+- Implement a hamburger menu or dropdown for smaller screens.
+
+4. Integrate the Nav Component:
+- Add the navigation component to all pages.
+- Ensure smooth transitions between pages (you can use animations or page transitions if desired).
