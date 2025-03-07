@@ -299,3 +299,16 @@ Dynamically display the filtered product data using the previously created produ
 
 5. Add Navigation:
 - Integrate the navigation component (from Milestone 15) to allow easy page switching.
+
+### Milestone 17: Cart Functionality
+
+✅ Goals:
+This milestone covers the implementation of cart functionality in the e-commerce project.
+
+1. Features
+- Create a cart schema to store product details
+- Add products to the cart with quantity and price
+- Automatically update total price when adding products
+
+2. Endpoints
+- `POST /api/cart`: Add a product to the user's cart
