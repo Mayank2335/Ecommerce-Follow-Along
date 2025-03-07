@@ -312,3 +312,16 @@ This milestone covers the implementation of cart functionality in the e-commerce
 
 2. Endpoints
 - `POST /api/cart`: Add a product to the user's cart
+
+### Milestone 18: Cart Page Backend
+
+✅ Goals:
+This milestone focuses on creating the backend functionality to retrieve products inside a user's cart.
+
+1. Features
+- Fetch all products in a user's cart
+- Return product details and quantity
+- Handle scenarios where the cart is empty or missing
+
+2. Endpoints
+- `GET /api/cart/:userId`: Get products inside the cart for a specific user
