@@ -334,3 +334,12 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 2. Allow users to increase/decrease product quantity with + and - buttons.
 3. Create backend API endpoints to handle quantity updates.
 
+### 📝 Milestone 20: User Profile Page 
+✅ Goals:
+
+1. Create a backend endpoint to send user data.
+
+2. Create a frontend profile page to display:
+- Profile photo, name, and email in one section.
+- Address in another section, with an "Add Address" button.
+- If no address is found, display "No address found"
