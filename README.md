@@ -325,3 +325,12 @@ This milestone focuses on creating the backend functionality to retrieve product
 
 2. Endpoints
 - `GET /api/cart/:userId`: Get products inside the cart for a specific user
+
+### Milestone 19: Cart Functionality 🛒
+✅ Goals:
+In this milestone, we will create the Cart page for our e-commerce platform, allowing users to view products in their cart and update their quantities dynamically.
+
+1. Display cart products on the frontend.
+2. Allow users to increase/decrease product quantity with + and - buttons.
+3. Create backend API endpoints to handle quantity updates.
+
