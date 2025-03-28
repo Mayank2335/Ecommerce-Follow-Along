@@ -355,4 +355,19 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 3. Implement Navigation
 - Update the Profile component to include an "Add Address" button.
 
+### Milestone 22: Address Storage in Backend
+✅ Goals:
+
+1. Create API Endpoint
+- Define a new POST route in the backend (/api/user/address).
+- Extract the address data from the request body.
+
+2. Update User Collection
+- Find the user by their ID.
+- Append the new address to the addresses array in the database.
+- Save the updated user document.
+
+3. Send Response
+- Return a success message and updated user data.
+
 
