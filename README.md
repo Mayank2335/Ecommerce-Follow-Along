@@ -391,6 +391,20 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 * User ID
 * Selected Delivery Address
 
+### Milestone 24: Order Confirmation Page
+✅ Goals:
+1. Display Ordered Products
+- Fetch the list of products in the order.
+- Render each product with its name, quantity, and price.
+
+2. Show Selected Delivery Address
+- Retrieve and display the chosen address.
+
+3. Display Total Cart Value
+- Calculate the total cost based on the ordered products.
+
+4. Add Place Order Button
+- Implement a button at the bottom for order confirmation.
 
 
 
