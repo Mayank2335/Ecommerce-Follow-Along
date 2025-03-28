@@ -370,4 +370,27 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 3. Send Response
 - Return a success message and updated user data.
 
+### Milestone 23: Place Order Functionality
+✅ Goals:
+1. Add "Place Order" Button
+- Inside the cart page, create a "Place Order" button.
+- When clicked, navigate to the Select Address page.
+
+2. Create Select Address Page
+- Display a list of all saved addresses.
+- Provide an option to select one address for delivery.
+- Add a "Confirm Address" button to proceed.
+
+3. Implement Backend Endpoint for Address Retrieval
+- Create a GET API route (/api/user/addresses).
+- Fetch all addresses from the user's profile.
+- Return the list of addresses as a response.
+
+4. Define Mongoose Schema for Orders
+- Create an Order model to store order details:
+* User ID
+* Selected Delivery Address
+
+
+
 
