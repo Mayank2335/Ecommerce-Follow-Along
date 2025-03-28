@@ -343,3 +343,16 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 - Profile photo, name, and email in one section.
 - Address in another section, with an "Add Address" button.
 - If no address is found, display "No address found"
+
+### Milestone 21: Address Form in Frontend
+✅ Goals:
+
+1. Create Address Form Page
+- Build a new React component (AddressForm.jsx).
+- Include input fields for: Country,City etc.
+
+2. Manage Form State
+3. Implement Navigation
+- Update the Profile component to include an "Add Address" button.
+
+
