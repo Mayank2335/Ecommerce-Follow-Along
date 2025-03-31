@@ -421,4 +421,15 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 - For each product in the request, create a separate order entry with the same address.
 - Save the order details in the orders collection using the predefined order schema.
 
+### Milestone 26: Get User Orders API
+✅ Goals:
+1. Setup the Get User Orders Endpoint
+- Create an API endpoint (e.g., GET /api/orders) that receives:
+- userEmail (email of the user requesting orders)
 
+2. Retrieve User ID Using Email
+- Query the users collection to get the _id of the user using the provided email.
+
+3. Retrieve and Send Orders
+- Use the _id to query the orders collection and fetch all orders belonging to the user.
+- Send the retrieved orders in the response.
