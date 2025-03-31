@@ -406,5 +406,19 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 4. Add Place Order Button
 - Implement a button at the bottom for order confirmation.
 
+### Milestone 25: Order Placement API
+✅ Goals:
+1. Setup the Order Placement Endpoint
+- Create an API endpoint (e.g., POST /api/orders) that receives:
+* products (array of product objects)
+* userEmail (email of the user placing the order)
+* address (shipping address for the order)
+
+2. Retrieve User ID Using Email
+- Query the users collection to get the _id of the user using the provided email.
+
+3. Store Order Details
+- For each product in the request, create a separate order entry with the same address.
+- Save the order details in the orders collection using the predefined order schema.
 
 
