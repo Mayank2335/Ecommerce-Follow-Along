@@ -433,3 +433,30 @@ In this milestone, we will create the Cart page for our e-commerce platform, all
 3. Retrieve and Send Orders
 - Use the _id to query the orders collection and fetch all orders belonging to the user.
 - Send the retrieved orders in the response.
+
+### Milestone 27 - My Orders Page
+✅ Goals:
+
+By the end of this milestone, you will have created a frontend page that displays all user orders. This page will fetch data from the backend using the `/my-orders` endpoint and show relevant order information to the user.
+
+ 1. Created a `my-orders` Page
+- A new page/component named `MyOrders` was created in the frontend.
+- This page is responsible for rendering all the orders associated with a logged-in user.
+
+ 2. Sent a GET Request to `/my-orders` Endpoint
+- Implemented an HTTP GET request to the `/my-orders` endpoint.
+- The user's email is sent as a query parameter to fetch orders specific to that user.
+
+ 3. Displayed User Orders
+- All the orders received from the API are displayed on the `my-orders` page.
+- Each order includes details such as:
+  - Order ID
+  - Product Name
+  - Quantity
+  - Price
+  - Order Date
+  - Status (if available)
+
+ 4. Added `my-orders` Page to Navbar
+- For easy navigation, a link to the `My Orders` page was added to the website’s navbar.
+- This allows users to quickly access their order history from any page.
