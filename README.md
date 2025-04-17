@@ -577,4 +577,12 @@ In this milestone, we use Redux to manage the user’s email in the global state
 
 3. In Other Pages (e.g., Profile): Use useSelector to access the stored email.
 
+### Milestone 33 - Creating and Storing JWT Token in Cookie
+✅ Goals:
+In this milestone, we learned how to create a JWT token containing user details (email and ID) and store it securely as a cookie in the user's browser. The token will have an expiry time to ensure security.
+
+1. Create a JWT token using the sign() method
+2. Set the token in the response cookie
+3. The cookie will be sent to the browser and used for authenticating future requests.
+
 
