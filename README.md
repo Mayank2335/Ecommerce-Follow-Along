@@ -508,3 +508,28 @@ By the end of this milestone, you will have created a frontend page that display
 - When the user selects the "Online Payment" option, display the PayPal payment buttons.
 - Hide the buttons when "COD" is selected.
 - The actual PayPal button functionality will be implemented in the next milestone.
+
+### Milestone 30: Implementing PayPal Online Payments 💳
+✅ Goals:
+
+1. Prerequisite:
+- Make sure you have:
+- A PayPal Developer Account
+- Your Sandbox User ID
+- The Client ID from your sandbox app (used in the previous milestone)
+
+2. Install PayPal React SDK
+- In your project root, run the following command:
+npm install @paypal/react-paypal-js
+This package provides the necessary tools to integrate PayPal in React apps.
+
+3. Use PayPalScriptProvider
+
+4. Display PayPal Payment Methods
+- Within the provider, you can render PayPal buttons or credit/debit card options.
+- You'll typically use components like <PayPalButtons /> to handle the payment UI.
+
+5. Test in Sandbox Mode
+
+- Since you're using a sandbox client ID and user ID, you can test transactions without real money.
+- This helps you simulate real-world payments before going live.
