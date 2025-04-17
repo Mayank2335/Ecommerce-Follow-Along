@@ -562,3 +562,19 @@ In this milestone, you will implement Redux for managing the user email globally
 - Import the Redux Provider component from react-redux.
 - Wrap your main App component with the Provider, passing the Redux store as a prop.
 - This ensures that your app can access the global state (user email) across all components
+
+### Milestone 32 - Redux Global State Management (User Email)
+✅ Goals:
+In this milestone, we use Redux to manage the user’s email in the global state. The email will be stored using `Dispatch` in the **Login page** and accessed across the application using `useSelector` in other pages.
+
+1. Create Redux Setup:
+
+- Actions: Define an action to set the user email.
+- Reducer: Create a reducer to handle the email state.
+- Store: Configure the Redux store.
+
+2. In the Login Page: Use Dispatch to store the user's email in the Redux state after login.
+
+3. In Other Pages (e.g., Profile): Use useSelector to access the stored email.
+
+
