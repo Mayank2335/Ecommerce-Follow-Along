@@ -460,3 +460,23 @@ By the end of this milestone, you will have created a frontend page that display
  4. Added `my-orders` Page to Navbar
 - For easy navigation, a link to the `My Orders` page was added to the website’s navbar.
 - This allows users to quickly access their order history from any page.
+
+### Milestone 28: Cancel Order Functionality ❌🛍️
+✅ Goals:
+
+1. Add "Cancel Order" Button on My Orders Page
+- Each order displayed now includes a "Cancel Order" button.
+- If an order is already canceled, the button is not shown.
+
+2. Backend Endpoint to Cancel Orders
+- Created a POST API endpoint /api/orders/cancel.
+- Accepts orderId in the request body.
+- Finds the order by its ID, updates the status to "Canceled", and saves it.
+
+3. Order Status Management
+- Ensured only active (non-canceled) orders can be canceled.
+- Updated the frontend to reflect the new status dynamically after cancellation.
+
+4. Improved User Experience
+- Disabled cancel button for already-canceled orders to avoid confusion.
+- Provided real-time feedback when the cancellation is successful.
