@@ -585,4 +585,26 @@ In this milestone, we learned how to create a JWT token containing user details 
 2. Set the token in the response cookie
 3. The cookie will be sent to the browser and used for authenticating future requests.
 
+### 🛡️ Milestone 34: JWT Token Validation using Middleware
+✅ Goal:
+Ensure that protected routes/pages are only accessible after login by validating the JWT token stored in browser cookies.
+
+1. Get the JWT Token from Browser Cookie
+- When a user logs in, the JWT token is stored in a cookie.
+- Retrieve this token on the client side and include it in the request to the server.
+
+2. Create a Middleware Function on Backend
+
+- Write a middleware that:
+* Reads the token from the request cookie.
+* Verifies the token using the secret key.
+* Sends an error response if the token is invalid or expired.
+* Proceeds to the next handler if the token is valid.
+
+3. Protect Routes using Middleware
+- Apply the verifyToken middleware to all the routes that need authentication.
+
+4. Ensure Frontend Access is Blocked Without Login
+- Use a token check or login state on each page/component to restrict unauthorized users from accessing protected pages.
+- If token is missing or invalid, redirect the user to the login page.
 
