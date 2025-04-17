@@ -533,3 +533,32 @@ This package provides the necessary tools to integrate PayPal in React apps.
 
 - Since you're using a sandbox client ID and user ID, you can test transactions without real money.
 - This helps you simulate real-world payments before going live.
+
+### 🧩 Milestone 31: Global State for User Email using Redux
+✅ Goals:
+In this milestone, you will implement Redux for managing the user email globally across your application. We will be using react-redux to integrate Redux into the app.
+1. Install Dependencies
+- First, install the necessary NPM packages for Redux:
+- react-redux – For connecting Redux with React.
+- @reduxjs/toolkit – To simplify Redux setup and usage.
+- Run the following command in your terminal:
+  *  npm install react-redux @reduxjs/toolkit
+
+2. Folder Structure
+- Create a new folder called store inside the src/ directory of your project. Inside the store folder, create two files:
+- store.js – For configuring the Redux store and defining the user state.
+- userActions.js – For writing action creators to modify the user state (like setting the user's email).
+
+ 3. Configure the Redux Store
+- In store.js, configure the Redux store. You will:
+- Set up an initial state with a property for storing the user's email.
+- Define actions that modify the global user email state.
+
+ 4. Create User Action Creators
+- In userActions.js, define the action creators that will be responsible for updating the user's email in the global state. The action will be dispatched when the user's email needs to be set or updated.
+
+ 5. Wrap App Component with Redux Provider
+- In src/index.js:
+- Import the Redux Provider component from react-redux.
+- Wrap your main App component with the Provider, passing the Redux store as a prop.
+- This ensures that your app can access the global state (user email) across all components
