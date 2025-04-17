@@ -480,3 +480,31 @@ By the end of this milestone, you will have created a frontend page that display
 4. Improved User Experience
 - Disabled cancel button for already-canceled orders to avoid confusion.
 - Provided real-time feedback when the cancellation is successful.
+
+### Milestone 29: Setting Up PayPal Integration 💸
+✅ Goals:
+
+1. Create a PayPal Developer Account
+- Visit PayPal Developer Dashboard.
+- Log in with your PayPal credentials (or create a new account if needed).
+
+2. Access Sandbox Accounts
+- Navigate to the Sandbox section.
+- You’ll find test buyer and seller accounts already created.
+- Copy the User ID of a test buyer account and save it safely for testing.
+
+3. Get Your PayPal Client ID
+- Go to Apps & Credentials under the dashboard.
+- Under Sandbox, create a new app if not already done.
+- Copy the Client ID of your sandbox app and save it — you’ll use this to connect PayPal with your app.
+
+4. Add Payment Options to Order Confirmation Page
+- Add two radio buttons labeled:
+- Cash on Delivery (COD)
+- Online Payment (PayPal)
+- By default, no PayPal buttons are shown.
+
+5. Conditional PayPal Button Display
+- When the user selects the "Online Payment" option, display the PayPal payment buttons.
+- Hide the buttons when "COD" is selected.
+- The actual PayPal button functionality will be implemented in the next milestone.
